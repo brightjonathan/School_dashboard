@@ -47,7 +47,7 @@ const DashbaordAcademicData = ( { isAuth } ) => {
                 <h1> <span className='font-bold text-black '> PREVIOUS SCHOOL :</span> {doc.Previous_school} </h1>
                 <h1> <span className='font-bold text-black '> SCHOOL :</span> {doc.School} </h1>
                 <h1> <span className='font-bold text-black '> LEVEL :</span> { doc.Level } </h1>
-                <h1> <span className='font-bold text-black '> SCHOOL CLUB:</span> {doc.School_club} </h1>
+                <h1> <span className='font-bold text-black '> SCHOOL CLUB:</span> {doc.School_club}  </h1>
                 <h1> <span className='font-bold text-black '> SPORT :</span> {doc.Sport} </h1>
                <h1> <span className='font-bold text-black'> Date Submitted: </span> {doc.timestamp.toDate().toDateString()}</h1> 
               </div>    
@@ -55,6 +55,7 @@ const DashbaordAcademicData = ( { isAuth } ) => {
               </div>
             )
           })}
+              
           </div>
         </div>
         
