@@ -1,0 +1,17 @@
+.settings {
+    margin-top: 100px;
+    padding: 0px 30px;
+    padding-bottom: 50px;
+  }
+  
+  .settings__wrapper {
+    padding: 20px;
+    border-radius: 5px;
+    background: var(--primary-color);
+  }
+  
+  .settings__title {
+    color: var(--heading-color);
+    font-weight: 500;
+    margin-bottom: 2rem;
+  }
